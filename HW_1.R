@@ -6,10 +6,10 @@
 
 # 1. Assign values
 
-number = c(1,2,3,4,5,6)
-gender = c("f","m","m","f","f","f")
-age = c(16,30,35,36,28,20) 
-depression = c(0,1,0,0,0,0)
+number <- 1:6
+gender <- sample(c("f","m"), size = 6, replace = TRUE)
+age <- sample(15:40, size = 6, replace = TRUE)
+depression <- sample(c(0,1), size = 6, replace = TRUE)
 
 # 2. combine to df
 
